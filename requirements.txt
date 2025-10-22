@@ -1,0 +1,13 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Starlang NLP Toolkits - GitHub'dan kurulacak
+# Bu paketler sırayla kurulmalı
+git+https://github.com/StarlangSoftware/DataStructure-Py.git
+git+https://github.com/StarlangSoftware/Dictionary-Py.git
+git+https://github.com/StarlangSoftware/Corpus-Py.git
+git+https://github.com/StarlangSoftware/MorphologicalAnalysis-Py.git
+git+https://github.com/StarlangSoftware/NGram-Py.git
+git+https://github.com/StarlangSoftware/SpellChecker-Py.git
